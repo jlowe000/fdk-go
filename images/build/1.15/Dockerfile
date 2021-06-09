@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-FROM golang:1.15-alpine3.13
+FROM arm64v8/golang:1.15-alpine3.13
 
 RUN apk add --no-cache wget curl alpine-sdk

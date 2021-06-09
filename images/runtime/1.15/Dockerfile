@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM alpine:3.13
+FROM arm64v8/alpine:3.13
 
 RUN apk update && apk upgrade \
   && apk add ca-certificates \
